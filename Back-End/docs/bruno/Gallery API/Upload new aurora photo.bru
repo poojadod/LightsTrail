@@ -1,0 +1,17 @@
+meta {
+  name: Upload new aurora photo
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/gallery/photos
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  image: 
+  location: 
+  userName: 
+}

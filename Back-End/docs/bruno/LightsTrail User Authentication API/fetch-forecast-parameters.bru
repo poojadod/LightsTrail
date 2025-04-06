@@ -1,0 +1,16 @@
+meta {
+  name: fetch-forecast-parameters
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{baseUrl}}/auroraforecast?longitude=-73.976902&latitude=40.7813913
+  body: none
+  auth: none
+}
+
+params:query {
+  longitude: -73.976902
+  latitude: 40.7813913
+}
